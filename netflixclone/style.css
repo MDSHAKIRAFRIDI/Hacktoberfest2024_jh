@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main {
+    background-image: url(./assests/img/bg-netflix.jpg);
+    background-position: center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+
+.div-box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    border-radius: 7px;
+
+
+}
+.nav-btn{
+    position: relative;
+    z-index: 5;
+}
+
+.nav-btn option{
+    color: black;
+}
+
+
+#lang{
+    background-color: transparent;
+    height: 38px;
+    width: 120px;
+    font-size: 1rem;
+    border: 0.01px solid white;
+    font-weight: 700;
+    color:white;
+    border-radius: 3px;
+    text-align: center;
+    /* position: relative; */
+    z-index: 5;
+}
+
+
+
+
+#sign {
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 88px;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.center-cont {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 114px;
+    gap: 10px;
+
+
+}
+
+
+
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    z-index: 10;
+}
+
+.start span {
+    font-weight: 900;
+}
+
+.start1 {
+    margin-top: -20px;
+}
+
+.input input {
+
+    height: 60px;
+    width: 372px;
+    border-radius: 5px;
+    margin: 4px;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid white;
+    z-index: 10;
+    color: white;
+
+}
+
+.input input::placeholder {
+    color: white;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+}
+
+.input button {
+    height: 62px;
+    width: 207px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    font-weight: 700;
+    font-size: 1.5rem;
+    z-index: 10;
+    border: none;
+}
+
+#between-1 {
+    z-index: 10;
+    column-gap: 1px;
+    font-size: 26px;
+    margin-top: -14px;
+}
+
+#between-2 {
+    font-size: 18px;
+    z-index: 10;
+    margin-top: 12px;
+}
+
+
+.main-cont {
+    height: 320vh;
+    width: 99vw;
+    margin-top: -70px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.trending {
+    color: white;
+    z-index: 10;
+
+    width: 70vw;
+    height: 5vh;
+    margin-top: 30px;
+
+
+}
+
+.select {
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+
+}
+
+
+
+
+
+#ind {
+    height: 45px;
+    width: 110px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.1rem;
+
+}
+
+#mov {
+    height: 45px;
+    width: 120px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-left: 17px;
+}
+
+
+.poster {
+    height: 330px;
+    width: 100%;
+
+    margin-top: 140px;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.poster span img {
+    height: 100%;
+    width: 240px;
+    background-color: black;
+    border-radius: 34px;
+    margin-top: -70px;
+
+
+}
+
+.poster span img:hover {
+    scale: 1.03;
+    transition: scale 0.3s ease-in;
+}
+
+.more-reason {
+    width: 70vw;
+    color: white;
+    height: auto;
+    font-size: 1.3rem;
+    position: relative;
+    top: 60vh;
+}
+
+
+.details {
+    height: 35vh;
+    width: 70vw;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.details div {
+    height: auto;
+    width: 16vw;
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(37, 138, 158, 1) 100%);
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.faq {
+    position: relative;
+    top: 70vh;
+    width: 70vw;
+    height: 80vh;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 34px;
+    border-radius: 12px;
+    gap: 20px;
+    color: white;
+}
+
+.summary div {
+    background: rgb(77, 75, 75);
+    height: 95px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.summary div span {
+
+    font-size: 60px;
+}
+
+h3 {
+    /* text-align: center; */
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 90px;
+}
+
+.input-2 {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-2 input {
+    margin-top: 16px;
+    height: 60px;
+    width: 500px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: -5px;
+
+}
+
+.input-2 button {
+    height: 62px;
+    width: 176px;
+    color: white;
+    background-color: red;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 2px;
+}
+
+.input-3 input::placeholder {
+    padding-left: 25px;
+
+}
+
+.footer {
+    color: white;
+    margin-top: 80px;
+    margin-right: 135px;
+    font-size: 1.4rem;
+}
+
+.footer li {
+    margin-top: 23px;
+    text-decoration: underline;
+    list-style: none;
+}
+
+#language {
+    height: 41px;
+    width: 149px;
+    background-color: transparent;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 1.2rem;
+    
+
+}
+
+p {
+    font-size: 1.3rem;
+    color: #ffffffb3;
+}
+
+.footer a {
+    color:#ffffffb3;
+    text-decoration: underline;
+    
+
+}
+
